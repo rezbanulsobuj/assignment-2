@@ -1,0 +1,87 @@
+/* ---top-bannner start-- */
+/* header{
+    background-color: royalblue;
+} */
+*{
+    margin: 0;
+    
+}
+header{
+    background-color: chartreuse;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    /* padding-left: 156px; */
+   width: 400px;
+   height: 500px;
+   font-size: 25px;
+   padding: 30px;
+  }
+   
+  #hero-btn{
+    padding: 15px 30px;
+    margin-top: 15px;
+    background-color: crimson;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: .3s;
+  }
+  #hero-btn:hover{
+    background-color: dodgerblue;
+  }
+
+  #hero-btn a{
+      text-decoration: none;
+      color: white;
+  }
+
+
+ .banner img{
+     width: 100%;
+    /* width: 556px;
+    height: 438px; */
+    /* padding-right: 140px;
+    padding-bottom: 86px;
+    padding-top: 67px; */
+     /* width: 100%; */
+     /* margin-left: 20px; */
+    }
+    /* top-banner-end */
+    /* main section start */
+   main{
+       margin-top: 70px;
+   }
+   h2{
+       text-align: center;
+   }
+    .cameras{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       grid-column-gap: 20px;
+       grid-row-gap: 20px;
+       
+   }
+   .camera{
+       padding: 10px;
+       background-color: #ffffff;
+       box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+       margin-right: 20px;
+   }
+   .camera-photo img{
+     width: 100%; 
+     /* width: 300px; 
+    height: 256px;  */
+   }
+   .fa-star{
+       color: orangered;
+   }
