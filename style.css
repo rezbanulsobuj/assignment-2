@@ -6,13 +6,12 @@
     margin: 0;
     
 }
-header{
-    background-color: chartreuse;
-}
+
 .container{
     max-width: 1140px;
     margin: auto;
 }
+
 
 .top-banner{
     display: flex;
@@ -20,7 +19,7 @@ header{
     align-items: center;
 }
 .banner{
-    /* padding-left: 156px; */
+   
    width: 400px;
    height: 500px;
    font-size: 25px;
@@ -48,19 +47,8 @@ header{
 
  .banner img{
      width: 100%;
-    /* width: 556px;
-    height: 438px; */
-    /* padding-right: 140px;
-    padding-bottom: 86px;
-    padding-top: 67px; */
-     /* width: 100%; */
-     /* margin-left: 20px; */
-    }
-    /* top-banner-end */
-    /* main section start */
-   main{
-       margin-top: 70px;
-   }
+ }
+  
    h2{
        text-align: center;
    }
