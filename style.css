@@ -1,7 +1,7 @@
-/* ---top-bannner start-- */
-/* header{
-    background-color: royalblue;
-} */
+/* -------------------------------------------------
+    yea my assignment successfully completed
+ ---------------------------------------------------*/
+
 *{
     margin: 0;
     padding: 0;
@@ -13,14 +13,12 @@
     margin: auto;
 }
 
-
 .top-banner{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .banner{
-   
    width: 400px;
    height: 500px;
   }
@@ -148,6 +146,24 @@ section{
     }
     .cameras{
         grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+    
+  }
+
+  /* ----------------------------------
+        media query for tablet
+ -------------------------------------- */
+
+  @media screen and ( min-width: 768px) {
+    .top-banner{
+        flex-direction: column;
+        padding: 15px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .cameras{
+        grid-template-columns: 1fr 1fr;
         margin: 0 auto;
     }
     
